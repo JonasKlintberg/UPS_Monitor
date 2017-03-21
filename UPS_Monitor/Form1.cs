@@ -20,9 +20,9 @@ namespace UPS_Monitor
         public static string logPath = @"UPS_MonitorLog.txt";
         public static string cfgFilePath = @"UPS_MonitorConfig.txt"; 
         public static string ipToMonitor = "127.0.0.1"; 
-        Icon iconGreen = new Icon("IconGreen.ico");
-        Icon iconYellow = new Icon("IconOrange.ico");
-        Icon iconRed = new Icon("IconRed.ico");
+        Icon iconGreen = new Icon(@"..\..\IconGreen.ico");
+        Icon iconYellow = new Icon(@"..\..\IconOrange.ico");
+        Icon iconRed = new Icon(@"..\..\IconRed.ico");
         public static ContextMenu notifyIcon_menu = new ContextMenu();
         public static bool exit = false;
 
